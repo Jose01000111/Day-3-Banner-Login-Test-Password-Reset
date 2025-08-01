@@ -8,6 +8,11 @@ To start Day 3, I focused on compliance by setting up a legal login banner. I lo
 
 Once the banner was working, I verified that one of the accounts I created yesterday could successfully log in. I chose Maria Lopez from the Employees OU and signed into a domain-joined machine using her credentials.  🔐
 
+# 🛠️ Troubleshooting: Granting RDP Access to Maria Lopez
+
+Maria couldn’t RDP into CHICAGO-DC01. I fixed it by adding her to the Remote Desktop Users group on the server via Computer Management. Now she has RDP rights and can connect remotely as needed.
+
+
 ## 🔁 I Reset Maria’s Password Through the GUI
 
 After confirming Maria could log in, I decided to test the password reset process using the GUI. I opened Active Directory Users and Computers, found her account under the correct OU, and reset her password to a new secure value.  🔄
